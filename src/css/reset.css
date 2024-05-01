@@ -9,10 +9,6 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -20,8 +16,12 @@ ul {
 }
 
 a {
-  color: currentColor;
+  color: inherit;
   text-decoration: none;
+}
+
+address {
+  font-style: normal;
 }
 
 button {
@@ -32,4 +32,54 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.body {
+  font-family: 'Gilroy', sans-serif;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+@media screen and (min-width: 320px) {
+  .container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 335px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 704px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1150px;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
 }
