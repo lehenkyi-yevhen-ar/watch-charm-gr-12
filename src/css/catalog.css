@@ -19,6 +19,7 @@
     .catalog-list {
         row-gap: 32px;
         column-gap: 23px;
+        justify-content: space-between;
     }
 }
 
@@ -43,11 +44,11 @@
     max-width: 280px;
 }
 
-@media only screen and (min-width: 1280px) {
+/* @media only screen and (min-width: 1280px) {
     .catalog-card-content {
       max-width: 304px;
     }
-}
+} */
 
 @media only screen and (min-width: 768px) {
   .cut-text {
