@@ -18,10 +18,10 @@
   flex-direction: row;
   gap: 5px;
 }
+
 .sale-item {
   width: 80px;
   height: 80px;
-  flex-shrink: 0;
   border-radius: 16px;
   border: 1px solid rgba(12, 12, 12, 0.05);
   background: #f3f3f3;
@@ -37,11 +37,20 @@
 
 .sale-images {
   width: 335px;
-  flex-shrink: 0;
+  height: 385px;
   border-radius: 30px;
   border: 1px solid rgba(12, 12, 12, 0.05);
   background: #f3f3f3;
+  position: relative;
 }
+
+.sale-images-photo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .sale-container-blue {
   max-width: 335px;
   flex-shrink: 0;
@@ -70,7 +79,7 @@
   margin-bottom: 20px;
 }
 
-.-sale-cont-blue-price {
+.sale-cont-blue-price {
   display: flex;
   flex-direction: row;
   gap: 9px;
