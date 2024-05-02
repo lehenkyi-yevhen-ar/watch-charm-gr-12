@@ -1,0 +1,127 @@
+.section {
+}
+.container {
+}
+.sale-title {
+  color: #0c0c0c;
+  font-family: Gilroy;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.64px;
+  margin-bottom: 24px;
+}
+.sale-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sale-list {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.sale-item {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  background: #f3f3f3;
+}
+
+.sale-images {
+  width: 335px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  background: #f3f3f3;
+}
+.sale-container-blue {
+  max-width: 335px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #3350e9;
+  padding: 48px 28px;
+}
+.sale-cont-blue-title {
+  color: #fbfbfb;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.48px;
+  margin-bottom: 10px;
+}
+.sale-cont-blue-text {
+  color: rgba(251, 251, 251, 0.5);
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  margin-bottom: 20px;
+}
+
+.-sale-cont-blue-price {
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+  align-items: baseline;
+}
+
+.sale-text-blue-price {
+  border-radius: 8px;
+  background-color: rgba(251, 251, 251, 0.1);
+  max-width: 68px;
+  flex-shrink: 0;
+  padding: 8px 12px;
+  color: #fbfbfb;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+  margin-bottom: 28px;
+}
+.sale-text-blue-before {
+  color: rgba(251, 251, 251, 0.5);
+  font-family: Gilroy;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.24px;
+  text-decoration: line-through;
+}
+.sale-cont-blue-description {
+  color: rgba(251, 251, 251, 0.7);
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  margin-bottom: 28px;
+}
+.sale-cont-blue-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.sale-cont-blue-item {
+  border-radius: 8px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  padding: 8px 12px;
+  color: #fbfbfb;
+  font-family: Gilroy;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
