@@ -25,6 +25,14 @@
   border-radius: 16px;
   border: 1px solid rgba(12, 12, 12, 0.05);
   background: #f3f3f3;
+  position: relative;
+}
+
+.sale-photo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .sale-images {
