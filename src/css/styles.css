@@ -1,9 +1,10 @@
-/**
+/*
   |============================
   | include css partials with
   | default @import url()
   |============================
 */
+@import url('./fonts.css');
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./hero.css');
@@ -16,49 +17,11 @@
 @import url('./footer.css');
 
 
-@font-face {
-  font-family: 'Gilroy', sans-serif;
-  src: url(/src/fonts/Gilroy-Regular.ttf),
-  url(/src/fonts/Gilroy-Regular.eot), 
-  url(/src/fonts/Gilroy-Regular.woff),
-  url(/src/fonts/Gilroy-Regular.woff2);
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Gilroy', sans-serif;
-  src: url(/src/fonts/Gilroy-Medium.ttf),
-  url(/src/fonts/Gilroy-Medium.eot), 
-  url(/src/fonts/Gilroy-Medium.woff),
-  url(/src/fonts/Gilroy-Medium.woff2);
-  font-style: normal;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'Gilroy', sans-serif;
-  src: url(/src/fonts/Gilroy-Semibold.ttf),
-  url(/src/fonts/Gilroy-Semibold.eot), 
-  url(/src/fonts/Gilroy-Semibold.woff),
-  url(/src/fonts/Gilroy-Semibold.woff2);
-  font-style: normal;
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: 'Gilroy', sans-serif;
-  src: url(/src/fonts/Gilroy-Bold.ttf),
-  url(/src/fonts/Gilroy-Bold.eot), 
-  url(/src/fonts/Gilroy-Bold.woff),
-  url(/src/fonts/Gilroy-Bold.woff2);
-  font-style: normal;
-  font-weight: 700;
-}
-
 body {
   background-color: #FBFBFB;
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: normal;
   color: #0C0C0C;
 }
 
@@ -107,11 +70,3 @@ body {
     padding-right: 65px;
   }
 }
-
-
-
-
-
-
-
-
