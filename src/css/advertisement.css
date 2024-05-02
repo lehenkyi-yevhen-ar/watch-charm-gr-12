@@ -1,0 +1,94 @@
+.advertisement {
+}
+
+.advert-container {
+    background-color: #0c0c0c;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/advert-back-mob-1x.jpg);
+    background-size: cover;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border: 1px solid #000;
+    width: 100%;
+    height: 363px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: start;
+    justify-content: center;
+    padding-left: 28px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+    .advert-container {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/advert-back-mob-2x.jpg);
+    }
+}
+    
+.advert-subtitle {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    max-width: 279px;
+}
+
+.advert-accent {
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.advert-contact {
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    padding: 15px 43px 15px 44px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+    .advert-container {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/advert-back-tab-1x.jpg);
+        width: 100%;
+        height: 425px;
+        gap: 32px;
+        padding-left: 64px;
+    }
+
+    .advert-subtitle {
+        max-width: 576px;
+        font-size: 48px;
+        line-height: 0.92;
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+    .advert-container {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/advert-back-tab-2x.jpg);
+    }
+}   
+}
+
+@media screen and (min-width: 1280px) {
+    .advert-container {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/advert-back-desk-1x.jpg);
+        width: 100%;
+        max-height: 259px;
+        flex-direction: row;
+        gap: 140px;
+        justify-content: center;
+        padding-top: 83px;
+        padding-left: 0;
+    }
+
+    .advert-subtitle {
+        max-width: 690px;
+        height: 132px;
+    }
+}
