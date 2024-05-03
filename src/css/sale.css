@@ -1,7 +1,16 @@
+.section-title {
+  margin-bottom: 24px;
+}
+
 .sale-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.sale-container-images {
+  display: flex;
+  flex-direction: column;
 }
 
 .sale-list {
@@ -79,6 +88,7 @@
 .sale-text-blue-price {
   border-radius: 8px;
   background-color: rgba(251, 251, 251, 0.1);
+  max-width: 68px;
   padding: 8px 12px;
   color: #fbfbfb;
   font-size: 16px;
@@ -126,7 +136,6 @@
   line-height: 16px;
 }
 /* ==========ADAPTIVE SALE============ */
-
 @media screen and (min-width: 768px) {
   .sale-cont-tab {
     display: flex;
