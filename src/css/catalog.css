@@ -3,20 +3,23 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    /* justify-content: center; */
 }
 
 @media only screen and (min-width: 768px) {
     .catalog-list {
       flex-direction: row;
       flex-wrap: wrap;
-      row-gap: 16px;
-      column-gap: 32px;
+      row-gap: 32px;
+      column-gap: 16px;
     }
 }
 
 @media only screen and (min-width: 1280px) {
     .catalog-list {
-        row-gap: 23px;
+        row-gap: 32px;
+        column-gap: 23px;
+        justify-content: space-between;
     }
 }
 
@@ -34,7 +37,25 @@
   .catalog-list-title {
     font-size: 20px;
     line-height: 1;
-    /* max-width: 280px; */
+  }
+}
+
+.catalog-card-content {
+    max-width: 280px;
+}
+
+/* @media only screen and (min-width: 1280px) {
+    .catalog-card-content {
+      max-width: 304px;
+    }
+} */
+
+@media only screen and (min-width: 768px) {
+  .cut-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
   }
 }
 
@@ -51,22 +72,21 @@
     border-radius: 30px;
     background-color: #f3f3f3;
     padding: 24px 28px;
+    max-width: 100%;
 }
 
 
 @media only screen and (min-width: 768px) {
     .catalog-list-item {
-        /* width: calc((100% - 16px) / 2); */
-        /* max-width: 344px; */
-        padding: 24px 32px;
+      padding: 24px 32px;
     }
 }
 
-/* @media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
     .catalog-list-item {
-        width: calc((100% - 46px) / 3);
+      flex-grow: 1;
     }
-} */
+}
 
 .catalog-list-img {
   max-width: 100%;
@@ -77,6 +97,12 @@
   .catalog-list-img {
     max-width: 268px;
   }
+}
+
+@media only screen and (min-width: 1280px) {
+    .catalog-list-img {
+      max-width: 292px;
+    }
 }
 
 .catalog-wrap {
@@ -90,3 +116,27 @@
   }
 }
 
+.catalog-mob-button {
+    font-family: "Gilroy", sans-serif;
+    margin-top: 40px;
+    padding: 15px 44px;
+    background-color: #3350e9;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fbfbfb;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 160px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .catalog-mob-button {
+    display: none;
+  }
+}
