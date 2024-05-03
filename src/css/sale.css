@@ -1,9 +1,24 @@
+<<<<<<< Updated upstream
+=======
+.section-title {
+  margin-bottom: 24px;
+}
+
+>>>>>>> Stashed changes
 .sale-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
+<<<<<<< Updated upstream
+=======
+.sale-container-images {
+  display: flex;
+  flex-direction: column;
+}
+
+>>>>>>> Stashed changes
 .sale-list {
   display: flex;
   flex-direction: row;
@@ -28,7 +43,11 @@
 }
 
 .sale-images {
+<<<<<<< Updated upstream
   max-width: 335px;
+=======
+  min-width: 335px;
+>>>>>>> Stashed changes
   height: 385px;
   border-radius: 30px;
   border: 1px solid rgba(12, 12, 12, 0.05);
@@ -79,6 +98,10 @@
 .sale-text-blue-price {
   border-radius: 8px;
   background-color: rgba(251, 251, 251, 0.1);
+<<<<< Updated upstream
+=======
+  max-width: 68px;
+>>>>>>> Stashed changes
   padding: 8px 12px;
   color: #fbfbfb;
   font-size: 16px;
@@ -126,7 +149,6 @@
   line-height: 16px;
 }
 /* ==========ADAPTIVE SALE============ */
-
 @media screen and (min-width: 768px) {
   .sale-cont-tab {
     display: flex;
