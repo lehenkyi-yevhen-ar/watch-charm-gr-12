@@ -1,24 +1,15 @@
 .reviews {
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
   flex-direction: column;
   gap: 24px;
-  padding: 0px 20px;
+  /* padding: 0px 20px; */
   width: 375px;
   height: 318px;
 }
-/* .reviews-logo {
-  font-family: Gilroy;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 32px;
-  padding-bottom: 24px;
-  color: #0c0c0c;
-} */
+
 .reviews-container {
-  width: 335px;
   display: flex;
   padding: 32px 36px;
   flex-direction: column;
@@ -29,12 +20,14 @@
 }
 .reviews-ul {
   display: flex;
-  width: 263px;
+  /* width: 263px; */
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  /* gap: 24px; */
 }
-.reviews-li {
+
+.reviews-img {
+  padding-bottom: 24px;
 }
 .reviews-name {
   text-align: center;
@@ -54,15 +47,20 @@
   color: rgba(12, 12, 12, 0.4);
 }
 .reviews-tablet {
+  display: none;
 }
 .reviews-comp {
+  display: none;
 }
 @media screen and (min-width: 768px) {
   .reviews {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    /* flex-direction: column; */
+  }
+  .reviews-li {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    color: #0c0c0c;
     gap: 40px;
   }
   .reviews-ul {
@@ -80,27 +78,47 @@
     line-height: 20px;
     color: rgba(12, 12, 12, 0.4);
   }
+  .reviews-tablet {
+    display: flex;
+  }
 }
 @media screen and (min-width: 1280px) {
   .reviews {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    /* flex-direction: column; */
-    gap: 24px;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0px 65px;
   }
   .reviews-ul {
     display: flex;
-    align-items: flex-start;
-    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+  }
+  .reviews-li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .reviews-container {
+    display: flex;
+    /* padding: 32px 36px; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    border-radius: 30px;
+    background: #f3f3f3;
   }
   .reviews-text {
     width: 298px;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    color: rgba(12, 12, 12, 0.4);
+  }
+  .reviews-comp {
+    display: flex;
   }
 }
