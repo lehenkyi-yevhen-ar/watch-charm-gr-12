@@ -1,0 +1,106 @@
+.reviews {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0px 20px;
+  width: 375px;
+  height: 318px;
+}
+/* .reviews-logo {
+  font-family: Gilroy;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  padding-bottom: 24px;
+  color: #0c0c0c;
+} */
+.reviews-container {
+  width: 335px;
+  display: flex;
+  padding: 32px 36px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border-radius: 30px;
+  background: #f3f3f3;
+}
+.reviews-ul {
+  display: flex;
+  width: 263px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.reviews-li {
+}
+.reviews-name {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: #0c0c0c;
+}
+.reviews-text {
+  width: 263px;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  color: rgba(12, 12, 12, 0.4);
+}
+.reviews-tablet {
+}
+.reviews-comp {
+}
+@media screen and (min-width: 768px) {
+  .reviews {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* flex-direction: column; */
+    gap: 40px;
+  }
+  .reviews-ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .reviews-text {
+    width: 272px;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(12, 12, 12, 0.4);
+  }
+}
+@media screen and (min-width: 1128px) {
+  .reviews {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* flex-direction: column; */
+    gap: 24px;
+  }
+  .reviews-ul {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .reviews-text {
+    width: 298px;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(12, 12, 12, 0.4);
+  }
+}
