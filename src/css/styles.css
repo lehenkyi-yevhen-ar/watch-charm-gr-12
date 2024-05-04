@@ -16,13 +16,12 @@
 @import url('./contact-us.css');
 @import url('./footer.css');
 
-
 body {
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: normal;
-  color: #0C0C0C;
+  color: #0c0c0c;
 }
 
 .section {
