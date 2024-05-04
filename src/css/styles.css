@@ -16,13 +16,12 @@
 @import url('./contact-us.css');
 @import url('./footer.css');
 
-
 body {
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: normal;
-  color: #0C0C0C;
+  color: #0c0c0c;
 }
 
 .section-title {
@@ -65,7 +64,10 @@ body {
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1150px;
+    max-width: 1150px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 65px;
     padding-right: 65px;
   }
