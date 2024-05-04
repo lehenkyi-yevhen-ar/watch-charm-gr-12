@@ -334,4 +334,7 @@
   .header-soc-link:focus .header-soc-svg {
     fill: #3350e9;
   }
+  .modal-window {
+    display: none;
+  }
 }
