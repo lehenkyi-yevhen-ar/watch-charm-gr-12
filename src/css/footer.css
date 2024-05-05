@@ -37,6 +37,7 @@
 
 .footer-icon {
   fill: #fbfbfb;
+  opacity: 0.8;
 }
 
 .footer-link-phone {
@@ -159,10 +160,26 @@
 
   .footer-logo-link {
     font-size: 20px;
+    transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-logo-link:hover,
+  .footer-logo-link:focus {
+    text-shadow: 0px 0px 5px #f3f3f3;
   }
 
   .footer-list {
     margin-bottom: 0;
+  }
+
+  .footer-icon {
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-list-link:hover .footer-icon,
+  .footer-list-link:focus .footer-icon {
+    fill: #ffffff;
+    opacity: 1;
   }
 
   .footer-title-container {
@@ -190,6 +207,13 @@
 
     width: 160px;
     height: 48px;
+
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-link-phone:hover,
+  .footer-link-phone:focus {
+    opacity: 0.8;
   }
 
   .footer-flex-container {
@@ -205,6 +229,12 @@
   .footer-nav-link {
     font-size: 14px;
     line-height: 1.28;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-nav-link:hover,
+  .footer-nav-link:focus {
+    opacity: 0.7;
   }
 
   .address-text {
@@ -232,6 +262,12 @@
   .footer-legal-link {
     font-size: 14px;
     line-height: 1.28;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-legal-link:hover,
+  .footer-legal-link:focus {
+    opacity: 0.8;
   }
 }
 
