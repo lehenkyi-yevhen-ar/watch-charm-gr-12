@@ -33,6 +33,7 @@
 }
 
 .contact-btn {
+    font-family: "Gilroy", sans-serif;
     display: block;
     border-radius: 16px;
     padding: 12px 50px;
@@ -66,6 +67,10 @@
     padding: 12px 0px 12px 14px;
     outline: transparent;
     background-color: transparent;
+    font-family: "Gilroy", sans-serif;
+    font-size: 14px;
+    line-height: 1.28;
+    color: rgba(12, 12, 12, 0.7);
 }
 
 
@@ -79,15 +84,21 @@
     resize: none;
     outline: transparent;
     background-color: transparent; 
-    padding: 12px 0px 54px 14px;
-        
+    padding: 12px 0px 10px 12px;
+    font-family: "Gilroy", sans-serif;
+    font-size: 14px;
+    line-height: 1.28;
+    color: rgba(12, 12, 12, 0.7);
+    overflow: hidden;
+            
 }
 
 .contact-input::placeholder,
 .contact-text::placeholder {
     font-size: 14px;
     line-height: 1.28;
-    color: #0c0c0c;
+    font-family: "Gilroy", sans-serif;
+    color: rgba(12, 12, 12, 0.7);
 }
 
 .contact-form :focus {
@@ -127,16 +138,6 @@
       width: 704px;
     }
 
-    .contact-input {
-      padding: 16px 0px 16px 18px;
-      font-size: 16px;
-    }
-
-    .contact-text {
-      padding: 16px 0px 54px 16px;
-      font-size: 16px;
-    }
-
     .contact-form {
       padding-bottom: 32px;
     }
@@ -155,6 +156,21 @@
       font-weight: 400;
       font-size: 16px;
       line-height: 1.25;
+    }
+
+    .contact-input  {
+      font-size: 16px;
+      line-height: 1.25;
+      line-height: 1.25;
+      color: rgba(12, 12, 12, 0.7);
+    }
+
+    .contact-text {
+      font-size: 16px;
+      line-height: 1.25;
+      line-height: 1.25;
+      color: rgba(12, 12, 12, 0.7);
+
     }
 
     .contact-btn {
@@ -201,33 +217,27 @@
 .contact-text::placeholder {
   font-size: 16px;
   line-height: 1.25;
-  color: #0c0c0c;
+  line-height: 1.25;
+  color: rgba(12, 12, 12, 0.7);
 }
 
 .contact-form {
-  margin-bottom: 32px;
-  padding: 0;
-}
+  padding-bottom: 32px;
+ }
 
 .contact-input {
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
-  padding: 16px 0px 16px 16px;
-  font-size: 16px;
-  margin: 0;
-  /* width: 100%; */
-  width: 460px;
-  /* width: 100%; */
-  /* height: 52px; */
-}
+  padding: 15px 0px 15px 16px;
+  color: rgba(12, 12, 12, 0.7);
 
+}
 
 .contact-text {
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
-  padding: 16px 0px 54px 16px;
-  font-size: 16px;
-  width: 100%;
+  padding: 16px 0px 16px 16px;
+  color: rgba(12, 12, 12, 0.7);
 }
 
 .contact-btn {
