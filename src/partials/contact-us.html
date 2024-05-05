@@ -1,0 +1,41 @@
+<!-- Contact Us -->
+
+<section class="contact-us">
+    <div class="container">
+    <h2 class="section-title contact-title">Contact Us</h2>
+    <div class="contact-wrap">
+    <div class="contact-form-container">
+        <p class="contact-description">Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.</p>
+        <form action="#" class="contact-form" autocomplete="off">
+            <label for="user-name">
+                <input type="text" class="contact-input" name="user-name" id="user-name" placeholder="Name" maxlength="41" required>
+            </label>
+            <label for="user-email">
+                <input type="email" class="contact-input" name="user-email" id="user-email" placeholder="Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" maxlength="41" required>
+            </label>
+            <label for="user-phone">
+                <input type="tel" class="contact-input" name="user-phone" id="user-phone" placeholder="+380" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" maxlength="41" required>
+            </label>
+            <label for="contact-description">
+                <input type="textarea" class="contact-text" name="contact-description" id="contact-description" placeholder="Comment" maxlength="256">
+            </label>
+        </form>
+        <button type="submit" class="contact-btn">Send</button>
+    </div>
+    <div class="contact-image-container">
+        <picture>
+            <source srcset="./img/contact-us/clock_d_1x.jpg 1x, ./img/contact-us/clock_d_2x.jpg 2x" media="(min-width:1280px)">
+            <source srcset="./img/contact-us/clock_t_1x.jpg 1x, ./img/contact-us/clock_t_2x.jpg 2x" media="(min-width:768px)">
+            <source srcset="./img/contact-us/clock_m_1x.jpg 1x, ./img/contact-us/clock_m_2x.jpg 2x" media="(max-width:768px)">
+            <img
+            class="portfolio-list-image"
+            src="./img/contact-us/contact-image.jpg"
+            alt="Contact Us Banner"
+            width="1150"
+            height="556"
+          />
+          </picture>
+    </div>
+</div>
+</div>
+</section>

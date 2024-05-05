@@ -5,15 +5,13 @@
 .sale-container {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: 20px;
 }
 
-.sale-container-images {
-  display: flex;
-  flex-direction: column;
-}
-
 .sale-list {
+  max-width: 335px;
   display: flex;
   flex-direction: row;
   gap: 5px;
@@ -137,9 +135,16 @@
 }
 /* ==========ADAPTIVE SALE============ */
 @media screen and (min-width: 768px) {
-  .sale-cont-tab {
+  .sale-container {
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .sale-container-images {
+    display: flex;
+    flex-direction: row;
     gap: 20px;
   }
 
@@ -197,9 +202,9 @@
   .sale-container {
     display: flex;
     flex-direction: row;
+    gap: 40px;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 40px;
   }
 
   .sale-images {
