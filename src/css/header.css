@@ -324,6 +324,23 @@
   .home:active::after {
     background-color: #3350e9;
   }
+  .header-list-link.active {
+    position: relative;
+  }
+  .header-list-link.active::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background-color: #3350e9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+  }
 
   .header-soc-list {
     display: flex;
