@@ -27,16 +27,9 @@
   position: relative;
 }
 
-.sale-photo {
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
-}
-
 .sale-images {
   max-width: 335px;
-  height: 383.4px;
+  height: 385px;
   flex-shrink: 0;
   border-radius: 30px;
   border: 1px solid rgba(12, 12, 12, 0.05);
@@ -59,7 +52,7 @@
   padding: 48px 28px;
 }
 .sale-cont-blue-title {
-  max-width: 279px;;
+  max-width: 279px;
   color: #fbfbfb;
   font-size: 24px;
   font-style: normal;
@@ -156,17 +149,18 @@
     gap: 10px;
   }
   .sale-item {
-    width: 130.4px;
-    height: 130.4px;
+    width: 132px;
+    height: 132px;
   }
 
   .sale-images {
-    min-width: 550.4px;
-    height: 556.4px;
+    min-width: 552px;
+    height: 558px;
   }
 
   .sale-container-blue {
     max-width: 704px;
+    height: 518px;
     padding: 60px;
   }
 
@@ -211,13 +205,13 @@
   }
 
   .sale-images {
-    min-width: 426.4px;
-    height: 556.4px;
+    min-width: 428px;
+    height: 558px;
   }
 
   .sale-container-blue {
     max-width: 530px;
-    flex-shrink: 0;
+    height: 558px;
   }
 
   .sale-cont-blue-title {
