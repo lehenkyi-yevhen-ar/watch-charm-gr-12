@@ -1,6 +1,6 @@
 .about-us {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  /* padding-top: 60px;
+  padding-bottom: 60px; */
 }
 .about-block {
   display: flex;
@@ -70,10 +70,10 @@
 }
 
 /* media: 768px */
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .about-us {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    /* padding-top: 80px;
+    padding-bottom: 80px; */
   }
   .about-block-info {
     margin-bottom: 40px;
@@ -94,10 +94,10 @@
 }
 
 /* media: 768px */
-@media only screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .about-us {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
   }
   .about-block {
     flex-direction: row;
