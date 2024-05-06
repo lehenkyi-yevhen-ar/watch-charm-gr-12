@@ -1,5 +1,5 @@
 .header-section {
-  padding-bottom: 55px;
+  padding-bottom: 30px;
 }
 .header {
   position: sticky;
@@ -281,7 +281,7 @@
     padding: 0;
   }
   .header-section {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
   }
   .header-container {
     display: flex;
