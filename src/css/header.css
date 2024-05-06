@@ -2,7 +2,7 @@
   padding-bottom: 30px;
 }
 .header {
-  position: fixed;
+  position: sticky;
   top: -1px;
   width: 100%;
   background-color: #fbfbfb;
