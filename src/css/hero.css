@@ -3,7 +3,8 @@
 }
 
 .hero {
-  padding-top: 80px;
+  /* padding-top: 80px; */
+  margin-top: 104px;
 }
 
 .items-wo-main-img {
@@ -134,6 +135,10 @@
   .hero-img {
     border-radius: 50px;
   }
+
+  .hero {
+    margin-top: 132px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -147,5 +152,9 @@
     display: flex;
     width: 1150px;
     margin: 0 auto;
+  }
+
+  .hero {
+    margin-top: 128px;
   }
 }
