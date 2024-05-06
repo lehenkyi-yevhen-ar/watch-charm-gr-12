@@ -1,5 +1,6 @@
 .footer {
   margin: 0 auto;
+  padding-top: 30px;
 }
 
 .footer-container {
@@ -147,6 +148,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 40px;
+  }
+
   .footer-container {
     padding: 40px 40px 28px 40px;
   }
@@ -272,10 +277,18 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .footer {
+    padding-top: 50px;
+  }
+
   .footer.container {
     width: 1216px;
     padding-left: 32px;
     padding-right: 32px;
+  }
+
+  .footer-container {
+    width: 1136px;
   }
 
   .footer-head-container {
