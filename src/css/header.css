@@ -2,7 +2,7 @@
   padding-bottom: 30px;
 }
 .header {
-  position: sticky;
+  position: fixed;
   top: -1px;
   width: 100%;
   background-color: #fbfbfb;
@@ -135,7 +135,7 @@
 }
 
 .modal-list-link {
-  display: block;
+  display: inline-block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
