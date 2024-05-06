@@ -278,6 +278,10 @@
     padding-right: 32px;
   }
 
+  .footer-container {
+    width: 1136px;
+  }
+
   .footer-head-container {
     position: static;
     margin-bottom: 126px;
