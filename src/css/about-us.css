@@ -20,7 +20,7 @@
   padding: 40px 20px;
 }
 .about-block-text {
-  margin-bottom: 55px;
+  /* margin-bottom: 55px; */
 }
 .about-text {
   font-weight: 500;
@@ -34,11 +34,14 @@
   margin-bottom: 0;
 }
 .about-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 16px;
-  min-width: 160px;
+  width: 160px;
   background-color: #3350e9;
   height: 48px;
-  padding: 15px 38px;
+  /* padding: 15px 38px; */
   margin-top: 40px;
 
   font-weight: 500;
@@ -87,7 +90,7 @@
     line-height: 1.25;
   }
   .about-card-img {
-    height: 512px;
+    height: 532px;
   }
   .about-img {
     border-radius: 50px;

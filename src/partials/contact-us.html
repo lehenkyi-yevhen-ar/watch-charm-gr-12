@@ -10,10 +10,10 @@
                 <input type="text" class="contact-input" name="user-name" id="user-name" placeholder="Name" maxlength="41" required>
             </label>
             <label for="user-email">
-                <input type="email" class="contact-input" name="user-email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" title="Email is wrong" id="user-email" placeholder="Email" maxlength="41" required>
+                <input type="email" id="email" class="contact-input" name="user-email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" title="Email is wrong" id="user-email" placeholder="Email" maxlength="41" required>
             </label>
             <label for="user-phone">
-                <input type="tel" class="contact-input" name="user-phone" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" title="Format: (+380-XX-XXX-XX-XX)" id="user-phone" placeholder="+380" maxlength="41" required>
+                <input type="tel" id="phone" class="contact-input" name="user-phone" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" title="Format: (+380-XX-XXX-XX-XX)" id="user-phone" placeholder="+380" maxlength="41" required>
             </label>
             <label for="contact-description">
                 <textarea rows="4" cols="20" class="contact-text" name="contact-description" id="contact-description" placeholder="Comment" maxlength="120"></textarea>
