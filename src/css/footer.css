@@ -1,4 +1,8 @@
 .footer {
+  padding-top: 30px;
+}
+
+.footer > .container {
   margin: 0 auto;
 }
 
@@ -147,6 +151,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 40px;
+  }
+
   .footer-container {
     padding: 40px 40px 28px 40px;
   }
@@ -243,7 +251,6 @@
     font-size: 14px;
     line-height: 1.28;
   }
-
   .footer-bottom-container {
     display: flex;
     align-items: baseline;
@@ -272,9 +279,18 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .footer.container {
+  .footer {
+    padding-top: 50px;
+  }
+
+  .footer > .container {
+    width: 1280px;
     padding-left: 32px;
     padding-right: 32px;
+  }
+
+  .footer-container {
+    width: 1216px;
   }
 
   .footer-head-container {

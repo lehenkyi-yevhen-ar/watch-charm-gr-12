@@ -1,6 +1,6 @@
 .about-us {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  /* padding-top: 60px;
+  padding-bottom: 60px; */
 }
 .about-block {
   display: flex;
@@ -15,12 +15,12 @@
 }
 .about-card {
   height: auto;
-  border-radius: 50px;
+  border-radius: 30px;
   background-color: #f3f3f3;
   padding: 40px 20px;
 }
 .about-block-text {
-  margin-bottom: 55px;
+  /* margin-bottom: 55px; */
 }
 .about-text {
   font-weight: 500;
@@ -34,11 +34,14 @@
   margin-bottom: 0;
 }
 .about-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 16px;
-  min-width: 160px;
+  width: 160px;
   background-color: #3350e9;
   height: 48px;
-  padding: 15px 38px;
+  /* padding: 15px 38px; */
   margin-top: 40px;
 
   font-weight: 500;
@@ -70,15 +73,16 @@
 }
 
 /* media: 768px */
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .about-us {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    /* padding-top: 80px;
+    padding-bottom: 80px; */
   }
   .about-block-info {
     margin-bottom: 40px;
   }
   .about-card {
+    border-radius: 50px;
     padding: 80px 60px;
   }
   .about-text {
@@ -86,7 +90,7 @@
     line-height: 1.25;
   }
   .about-card-img {
-    height: 512px;
+    height: 532px;
   }
   .about-img {
     border-radius: 50px;
@@ -94,10 +98,10 @@
 }
 
 /* media: 768px */
-@media only screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .about-us {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
   }
   .about-block {
     flex-direction: row;
