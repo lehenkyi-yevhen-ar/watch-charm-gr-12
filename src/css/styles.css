@@ -16,6 +16,10 @@
 @import url('./contact-us.css');
 @import url('./footer.css');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #fbfbfb;
   background-color: #fbfbfb;

@@ -146,7 +146,9 @@
 .modal-home {
   position: relative;
 }
-.modal-home:active::after {
+
+
+.modal-home-active::after {
   content: '';
   position: absolute;
   display: block;
