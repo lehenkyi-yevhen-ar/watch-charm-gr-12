@@ -165,11 +165,13 @@
   }
 
   .sale-cont-blue-title {
+
+    max-width: 436px;
     font-size: 32px;
     line-height: 36px;
     letter-spacing: -0.64px;
-    width: 436px;
-    margin-bottom: 5px;
+    max-width: 436px;
+    margin-bottom: 10px;
   }
 
   .sale-text-blue-price {
