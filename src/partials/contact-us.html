@@ -1,26 +1,25 @@
 <!-- Contact Us -->
-
 <section class="contact-us">
     <div class="container">
-    <h2 class="section-title contact-title">Contact Us</h2>
+    <h2 class="section-title contact-title" id="contact-us">Contact Us</h2>
     <div class="contact-wrap">
     <div class="contact-form-container">
         <p class="contact-description">Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.</p>
-        <form action="#" class="contact-form" autocomplete="off">
+        <form class="contact-form" id="contact-form" autocomplete="off">
             <label for="user-name">
                 <input type="text" class="contact-input" name="user-name" id="user-name" placeholder="Name" maxlength="41" required>
             </label>
             <label for="user-email">
-                <input type="email" class="contact-input" name="user-email" id="user-email" placeholder="Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" maxlength="41" required>
+                <input type="email" class="contact-input" name="user-email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" title="Email is wrong" id="user-email" placeholder="Email" maxlength="41" required>
             </label>
             <label for="user-phone">
-                <input type="tel" class="contact-input" name="user-phone" id="user-phone" placeholder="+380" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" maxlength="41" required>
+                <input type="tel" class="contact-input" name="user-phone" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" title="Format: (+380-XX-XXX-XX-XX)" id="user-phone" placeholder="+380" maxlength="41" required>
             </label>
             <label for="contact-description">
-                <input type="textarea" class="contact-text" name="contact-description" id="contact-description" placeholder="Comment" maxlength="256">
+                <textarea rows="4" cols="20" class="contact-text" name="contact-description" id="contact-description" placeholder="Comment" maxlength="120"></textarea>
             </label>
         </form>
-        <button type="submit" class="contact-btn">Send</button>
+        <button type="submit" class="contact-btn" form="contact-form">Send</button>
     </div>
     <div class="contact-image-container">
         <picture>
