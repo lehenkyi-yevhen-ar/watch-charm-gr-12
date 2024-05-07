@@ -251,7 +251,6 @@
     font-size: 14px;
     line-height: 1.28;
   }
-
   .footer-bottom-container {
     display: flex;
     align-items: baseline;
@@ -285,13 +284,13 @@
   }
 
   .footer > .container {
-    width: 1216px;
+    width: 1280px;
     padding-left: 32px;
     padding-right: 32px;
   }
 
   .footer-container {
-    width: 1136px;
+    width: 1216px;
   }
 
   .footer-head-container {
