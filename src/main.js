@@ -6,8 +6,8 @@ import('./js/menu.js')
         console.error('Error loading menu.js:', error);
       });
 
-      document.addEventListener("DOMContentLoaded", function() {
-        import('.js/header-active.js')
+document.addEventListener("DOMContentLoaded", function() {
+        import('./js/header-active.js')
             .then(module => {
                 console.log("header-active.js imported successfully!");
             })
