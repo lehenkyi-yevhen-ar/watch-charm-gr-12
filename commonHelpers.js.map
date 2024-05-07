@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"mappings":"0jDAAA,OAAO,2BAAc,EAAC,IACf,KAAKA,GAAU,CACdA,EAAO,WAAU,CACzB,CAAO,EACA,MAAMC,GAAS,CACd,QAAQ,MAAM,yBAA0BA,CAAK,CACrD,CAAO","names":["module","error"],"sources":["../src/main.js"],"sourcesContent":["import('./js/menu.js')\n      .then(module => {\n        module.toggleMenu();\n      })\n      .catch(error => {\n        console.error('Error loading menu.js:', error);\n      });"],"file":"commonHelpers.js"}
