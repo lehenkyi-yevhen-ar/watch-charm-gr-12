@@ -1,0 +1,2 @@
+const r=document.querySelectorAll("header nav ul li a");function a(){const n=document.querySelectorAll("section"),o=window.scrollY;n.forEach(e=>{const c=e.offsetTop,t=e.clientHeight;if(o>=c-t*.25&&o<c+t-t*.25){const i=e.getAttribute("id"),s=document.querySelector(`header nav ul li a[href="#${i}"]`);r.forEach(l=>l.classList.remove("active")),s.classList.add("active")}})}window.addEventListener("scroll",a);
+//# sourceMappingURL=header-active-75b4c828.js.map
