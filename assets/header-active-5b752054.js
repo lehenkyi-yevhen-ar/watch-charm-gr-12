@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){const c=document.querySelectorAll("header nav ul li a");function i(){const s=document.querySelectorAll("section"),n=window.scrollY;s.forEach(e=>{const o=e.offsetTop,t=e.clientHeight;if(n>=o-t*.25&&n<o+t-t*.25){const l=e.getAttribute("id"),r=document.querySelector(`header nav ul li a[href="#${l}"]`);c.forEach(d=>d.classList.remove("active")),r.classList.add("active")}})}window.addEventListener("scroll",i)});
+//# sourceMappingURL=header-active-5b752054.js.map
