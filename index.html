@@ -8,7 +8,7 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type="module" crossorigin src="/watch-charm-gr-12/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/watch-charm-gr-12/assets/index-dda88d7c.css">
+    <link rel="stylesheet" href="/watch-charm-gr-12/assets/index-1c2287e1.css">
   </head>
   <body>
     <section class="header-section">
@@ -630,10 +630,10 @@
                 <input type="text" class="contact-input" name="user-name" id="user-name" placeholder="Name" maxlength="41" required>
             </label>
             <label for="user-email">
-                <input type="email" class="contact-input" name="user-email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" title="Email is wrong" id="user-email" placeholder="Email" maxlength="41" required>
+                <input type="email" id="email" class="contact-input" name="user-email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" title="Email is wrong" id="user-email" placeholder="Email" maxlength="41" required>
             </label>
             <label for="user-phone">
-                <input type="tel" class="contact-input" name="user-phone" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" title="Format: (+380-XX-XXX-XX-XX)" id="user-phone" placeholder="+380" maxlength="41" required>
+                <input type="tel" id="phone" class="contact-input" name="user-phone" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" title="Format: (+380-XX-XXX-XX-XX)" id="user-phone" placeholder="+380" maxlength="41" required>
             </label>
             <label for="contact-description">
                 <textarea rows="4" cols="20" class="contact-text" name="contact-description" id="contact-description" placeholder="Comment" maxlength="120"></textarea>
@@ -754,9 +754,7 @@
   </div>
 </footer>
 
-  
     
-    <!-- <script src="./js/menu.js"></script> -->
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js" integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" crossorigin="anonymous"></script>
 
   </body>
